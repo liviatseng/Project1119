@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    display: flex;
+    position: absolute;
+    background-color: #2D6C7E;
+    width:100%;
+    height: 8%;
+    justify-content: center;
+    align-items: center;
+}
+
+#signup, #login, #data{
+    text-decoration:none;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 0.9px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.whitebg{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 92%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5%;
+}
+
+.f_signup{
+    background-color: #2D6C7E;
+    color: white;
+    border-radius: 5px;
+    width: 450px;
+    height: 620px;
+    letter-spacing: 0.8px;
+}
+
+.f_login{
+    background-color: #2D6C7E;
+    color: white;
+    border-radius: 5px;
+    width: 450px;
+    height: 480px;
+    letter-spacing: 0.8px; 
+}
+
+.create_acc{
+    font-size: 29px;
+    margin-top: 65px;
+    letter-spacing: 1.3px;
+}
+
+.s_caption{
+    font-size: 7px;
+    margin-top: -5px;
+}
+
+#username{
+    margin-top: 30px;
+}
+
+#username, #email, #password, #c_password, #l_email{
+    width: 350px;
+    height: 30px;
+    padding: 10px 5px 10px 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: none;
+    letter-spacing: 0.8px;
+
+} 
+
+#submit{
+    width: 370px;
+    height: 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: none;  
+    color: white;
+    background-color: #6fb6ca;
+    margin-top: 15px;
+}
+
+#l_email{
+    margin-top: 40px;
+}
+
+.ref{
+    color: #6fb6ca;
+    text-decoration: none;
+}
+
+.box{
+    position: absolute;
+    display: flex;
+    margin-top: 4.5%;
+    width: 100%;
+    height: 92%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxa, .boxb, .boxc{
+    background-color: #2D6C7E;
+    color: white;
+    border-radius: 5px;
+    width: 750px;
+    height: 180px;
+    letter-spacing: 0.8px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px 0px 5px 30px;
+}
+
+.d_username{
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.d_email{
+    font-size: 23px;
+    margin-top: -3px;
+    font-weight: lighter;
+}
+
+.text{
+    font-weight: lighter;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+
+
